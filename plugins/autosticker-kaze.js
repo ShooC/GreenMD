@@ -8,7 +8,7 @@ let stiker = await sticker(null, global.API(`${pickRandom(stikerhuuu)}`), global
     
 }
 
-handler.customPrefix = /^(Kaze|kaze)$/i
+handler.customPrefix = /^(GreenTea|GreenTeaBot)$/i
 handler.command = new RegExp
 
 export default handler
